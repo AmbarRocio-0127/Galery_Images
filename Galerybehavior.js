@@ -1,3 +1,5 @@
+//bloque de código encargado de realizar la expansión de las imagenes cuando se haga click sobre las mismas
+
 document.querySelectorAll(".container .overlay").forEach((el) => {
     el.addEventListener("click", function (ev) {
         ev.stopPropagation();
